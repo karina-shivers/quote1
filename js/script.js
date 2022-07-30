@@ -13,13 +13,13 @@ project 1 - A Random Quote Generator
 var quotes = [
   {
     quote: "All we have to decide is what to do with the time that is given us." ,
-    author: J.R.R. Tolkein,
+    author: "J.R.R. Tolkein",
     year: 2001,
     citation: "The Fellowship of the Ring"
   },
   {
    quote: "It matters not what someone is born, but what they grow to be.",
-    author: J.K. Rowling,
+    author: "J.K. Rowling",
     year: 2005
     
   },
@@ -41,7 +41,7 @@ var quotes = [
   },
   {
     quote: "Your Lack of Dedication is an Insult to Those Who Believe in You",
-    author: unknown, 
+    author: "unknown", 
     
    
     
