@@ -94,7 +94,7 @@ function changeBackground() {
   element.style.backgroundColor = `rgba(${red},${green},${blue},${alpha})`;
 }
 // Arrow function timer to change quote every 15 seconds
-let autoChange = () => refresh = setInterval(printQuote, 15);
+let autoChange = () => refresh = setInterval(printQuote,15000 );
 autoChange()
 
 
