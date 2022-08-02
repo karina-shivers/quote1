@@ -68,7 +68,7 @@ function printQuote() {
   let htmlToPrint = '';
 
     htmlToPrint += `<p class="quote"> ${quoteToPrint.quote} </p>`;
-    htmlToPrint += `<p class="source"> ${quoteToPrint.source}`;
+    htmlToPrint += `<p class="author"> ${quoteToPrint.author}`;
     // conditional statements to check if optional properties of the quotes exist
       if( quoteToPrint.citation !== undefined) {
         htmlToPrint += `<span class="citation"> ${quoteToPrint.citation} </span>`; 
